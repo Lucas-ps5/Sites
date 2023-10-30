@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Exception;
+
+class AmountException extends \Exception
+{
+    public function __construct(float $value, float $expected){
+        parent::__construct(sprintf('%s attendu est different de %s', $expected, $value));
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "filp/whoops": "^2.15",
+        "paypal/paypal-checkout-sdk": "^1.0",
+        "nyholm/psr7": "^1.8",
+        "stripe/stripe-php": "^12.0"
+    }
+}
